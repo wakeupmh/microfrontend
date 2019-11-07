@@ -1,5 +1,10 @@
 import React from "react"
+import Chart from "./components/Chart/root.component.js"
 
-const App = () => <h1>Hello from React</h1>
-
-export default App
+export default class App extends React.Component {
+    render() {
+        return (
+            <Chart/>
+        );
+    }
+}
