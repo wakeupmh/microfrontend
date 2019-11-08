@@ -2,7 +2,9 @@
 
 This repository is a micro-frontend application study. 🤘
 
-### The idea behind Micro Frontends is to think about a website or web app as a composition of features which are owned by independent teams. Each team has a distinct area of business or mission it cares about and specialises in. A team is cross functional and develops its features end-to-end, from database to user interface. 🧐
+### The idea behind Micro Frontends is to think about a website or web app as a composition of features which are owned by independent teams. 
+### Each team has a distinct area of business or mission it cares about and specialises in.
+### A team is cross functional and develops its features end-to-end, from database to user interface. 🧐
 
 ## Core Ideas behind Micro Frontends 🤓
 ### Be Technology Agnostic
