@@ -19,7 +19,6 @@ class Chart extends Component {
     render() {
         return (
             <div>
-                <h1>Hello from React</h1>
                 <Chartify 
                     data={data} 
                     container="films-container" 
