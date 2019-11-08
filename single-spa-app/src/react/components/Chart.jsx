@@ -25,7 +25,6 @@ class Chart extends Component {
                     container="films-container" 
                     config={config} 
                 />
-
             </div>
         )
     }

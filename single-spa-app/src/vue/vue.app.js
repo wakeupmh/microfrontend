@@ -1,9 +1,11 @@
 import Vue from 'vue';
 import singleSpaVue from 'single-spa-vue';
+import vuetify from '@/plugins/vuetify'
 import Hello from './main.vue'
 
 const vueLifecycles = singleSpaVue({
     Vue,
+    vuetify,
     appOptions: {
         el: '#vue',
         render: r => r(Hello)

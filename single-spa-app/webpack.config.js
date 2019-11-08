@@ -26,6 +26,12 @@ module.exports = {
       {
         test: /\.vue$/,
         loader: 'vue-loader'
+      },
+      {
+        test: /\.jsx?$/,
+        use: {
+          loader: "babel-loader"
+        }
       }
     ],
   },
@@ -33,10 +39,15 @@ module.exports = {
     fs: 'empty'
   },
   resolve: {
+    extensions: ['.js', '.jsx'],
     alias: {
       vue: 'vue/dist/vue.js'
     },
-    modules: [path.resolve(__dirname, 'node_modules')],
+    modules: [
+      path.resolve(__dirname, 'node_modules'), 
+      path.resolve(__dirname, 'src/vue'),
+      path.resolve(__dirname, 'src/react')
+    ],
   },
   plugins: [
     new CleanWebpackPlugin(),
