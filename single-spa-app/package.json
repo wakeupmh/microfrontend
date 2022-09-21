@@ -27,7 +27,7 @@
     "single-spa-vue": "^1.5.4",
     "url-loader": "^2.2.0",
     "vue": "^2.6.10",
-    "vuetify": "^2.1.9"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
